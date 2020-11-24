@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myround"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="500dp"
+                android:layout_height="702dp"
+                android:layout_margin="10dp"
+                android:layout_marginStart="0dp"
+                android:background="@color/colorAccent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/year60" />
+
+            <LinearLayout
+                android:layout_width="628dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="602dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal"
+                    android:textAlignment="viewEnd">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingRight="5dp"
+                        android:text="KMUTNB READING AID MECHINE"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/l1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/l2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/l3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/l4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="593dp"
+                    android:orientation="horizontal"
+                    android:scrollbars="vertical"
+                    tools:layout_editor_absoluteX="549dp"
+                    tools:layout_editor_absoluteY="2dp">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="600dp"
+                        android:layout_height="600dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:alpha="0.9"
+                        android:background="@android:color/darker_gray"
+                        android:padding="5dp"
+                        android:singleLine="false"
+                        android:text="Welcome to King Mongkut's university of Technology North Bangkok Reading Aid Machine"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="24sp"
+                        android:verticalScrollbarPosition="defaultPosition"
+                        android:scrollbars="vertical"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:paddingTop="0dp"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/Bt1"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:ellipsize="middle"
+                        android:text="PB2"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toStartOf="@+id/Bt2"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/imageView"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/Bt2"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:ellipsize="middle"
+                        android:text="PL8"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toStartOf="@+id/Bt3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/Bt3"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:ellipsize="middle"
+                        android:text="PL9"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toStartOf="@+id/Bt4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/Bt4"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:ellipsize="middle"
+                        android:text="PC3"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toStartOf="@+id/Bt5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/Bt5"
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:ellipsize="middle"
+                        android:text="PH10"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/kmutnb_logo" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="101dp"
+                    android:layout_height="97dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/fitm" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/logo_3" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:cropToPadding="false"
+                    app:srcCompat="@drawable/year60" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
